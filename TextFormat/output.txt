@@ -1,0 +1,807 @@
+ENVI Decision Tree Text File (version=1.0)
+
+begin node
+  name = "b15 le 1283"
+  type = Decision
+  location = 1,1
+  expression = "b15 le 1283"
+end node
+
+begin node
+  name = "b14 le -206"
+  type = Decision
+  location = 2,2
+  parent name = "b15 le 1283"
+  parent decision = Yes
+  expression = "b14 le -206"
+end node
+
+begin node
+  name = "b17 le -1839"
+  type = Decision
+  location = 3,4
+  parent name = "b14 le -206"
+  parent decision = Yes
+  expression = "b17 le -1839"
+end node
+
+begin node
+  name = "b1 le -1753"
+  type = Decision
+  location = 4,8
+  parent name = "b17 le -1839"
+  parent decision = Yes
+  expression = "b1 le -1753"
+end node
+
+begin node
+  name = "6"
+  type = Result
+  location = 5,16
+  parent name = "b1 le -1753"
+  parent decision = Yes
+  class value = 6
+  class rgb = 0,255,255
+end node
+
+begin node
+  name = "7"
+  type = Result
+  location = 5,15
+  parent name = "b1 le -1753"
+  parent decision = No
+  class value = 7
+  class rgb = 0,0,255
+end node
+
+begin node
+  name = "b12 le -382"
+  type = Decision
+  location = 4,7
+  parent name = "b17 le -1839"
+  parent decision = No
+  expression = "b12 le -382"
+end node
+
+begin node
+  name = "6"
+  type = Result
+  location = 5,14
+  parent name = "b12 le -382"
+  parent decision = Yes
+  class value = 6
+  class rgb = 0,255,255
+end node
+
+begin node
+  name = "b20 le -1136"
+  type = Decision
+  location = 5,13
+  parent name = "b12 le -382"
+  parent decision = No
+  expression = "b20 le -1136"
+end node
+
+begin node
+  name = "6"
+  type = Result
+  location = 6,26
+  parent name = "b20 le -1136"
+  parent decision = Yes
+  class value = 6
+  class rgb = 0,255,255
+end node
+
+begin node
+  name = "5"
+  type = Result
+  location = 6,25
+  parent name = "b20 le -1136"
+  parent decision = No
+  class value = 5
+  class rgb = 255,255,0
+end node
+
+begin node
+  name = "b13 le 980"
+  type = Decision
+  location = 3,3
+  parent name = "b14 le -206"
+  parent decision = No
+  expression = "b13 le 980"
+end node
+
+begin node
+  name = "5"
+  type = Result
+  location = 4,6
+  parent name = "b13 le 980"
+  parent decision = Yes
+  class value = 5
+  class rgb = 255,255,0
+end node
+
+begin node
+  name = "b8 le 1168"
+  type = Decision
+  location = 4,5
+  parent name = "b13 le 980"
+  parent decision = No
+  expression = "b8 le 1168"
+end node
+
+begin node
+  name = "b11 le 1204"
+  type = Decision
+  location = 5,10
+  parent name = "b8 le 1168"
+  parent decision = Yes
+  expression = "b11 le 1204"
+end node
+
+begin node
+  name = "b12 le 1239"
+  type = Decision
+  location = 6,20
+  parent name = "b11 le 1204"
+  parent decision = Yes
+  expression = "b12 le 1239"
+end node
+
+begin node
+  name = "5"
+  type = Result
+  location = 7,40
+  parent name = "b12 le 1239"
+  parent decision = Yes
+  class value = 5
+  class rgb = 255,255,0
+end node
+
+begin node
+  name = "b10 le 945"
+  type = Decision
+  location = 7,39
+  parent name = "b12 le 1239"
+  parent decision = No
+  expression = "b10 le 945"
+end node
+
+begin node
+  name = "5"
+  type = Result
+  location = 8,78
+  parent name = "b10 le 945"
+  parent decision = Yes
+  class value = 5
+  class rgb = 255,255,0
+end node
+
+begin node
+  name = "3"
+  type = Result
+  location = 8,77
+  parent name = "b10 le 945"
+  parent decision = No
+  class value = 3
+  class rgb = 0,238,0
+end node
+
+begin node
+  name = "b20 le 217"
+  type = Decision
+  location = 6,19
+  parent name = "b11 le 1204"
+  parent decision = No
+  expression = "b20 le 217"
+end node
+
+begin node
+  name = "3"
+  type = Result
+  location = 7,38
+  parent name = "b20 le 217"
+  parent decision = Yes
+  class value = 3
+  class rgb = 0,238,0
+end node
+
+begin node
+  name = "5"
+  type = Result
+  location = 7,37
+  parent name = "b20 le 217"
+  parent decision = No
+  class value = 5
+  class rgb = 255,255,0
+end node
+
+begin node
+  name = "3"
+  type = Result
+  location = 5,9
+  parent name = "b8 le 1168"
+  parent decision = No
+  class value = 3
+  class rgb = 0,238,0
+end node
+
+begin node
+  name = "b9 le 4962"
+  type = Decision
+  location = 2,1
+  parent name = "b15 le 1283"
+  parent decision = No
+  expression = "b9 le 4962"
+end node
+
+begin node
+  name = "b18 le 2940"
+  type = Decision
+  location = 3,2
+  parent name = "b9 le 4962"
+  parent decision = Yes
+  expression = "b18 le 2940"
+end node
+
+begin node
+  name = "b14 le 1698"
+  type = Decision
+  location = 4,4
+  parent name = "b18 le 2940"
+  parent decision = Yes
+  expression = "b14 le 1698"
+end node
+
+begin node
+  name = "b13 le 1148"
+  type = Decision
+  location = 5,8
+  parent name = "b14 le 1698"
+  parent decision = Yes
+  expression = "b13 le 1148"
+end node
+
+begin node
+  name = "5"
+  type = Result
+  location = 6,16
+  parent name = "b13 le 1148"
+  parent decision = Yes
+  class value = 5
+  class rgb = 255,255,0
+end node
+
+begin node
+  name = "b22 le -473"
+  type = Decision
+  location = 6,15
+  parent name = "b13 le 1148"
+  parent decision = No
+  expression = "b22 le -473"
+end node
+
+begin node
+  name = "b12 le 1487"
+  type = Decision
+  location = 7,30
+  parent name = "b22 le -473"
+  parent decision = Yes
+  expression = "b12 le 1487"
+end node
+
+begin node
+  name = "5"
+  type = Result
+  location = 8,60
+  parent name = "b12 le 1487"
+  parent decision = Yes
+  class value = 5
+  class rgb = 255,255,0
+end node
+
+begin node
+  name = "3"
+  type = Result
+  location = 8,59
+  parent name = "b12 le 1487"
+  parent decision = No
+  class value = 3
+  class rgb = 0,238,0
+end node
+
+begin node
+  name = "b8 le 962"
+  type = Decision
+  location = 7,29
+  parent name = "b22 le -473"
+  parent decision = No
+  expression = "b8 le 962"
+end node
+
+begin node
+  name = "b19 le 1366"
+  type = Decision
+  location = 8,58
+  parent name = "b8 le 962"
+  parent decision = Yes
+  expression = "b19 le 1366"
+end node
+
+begin node
+  name = "3"
+  type = Result
+  location = 9,116
+  parent name = "b19 le 1366"
+  parent decision = Yes
+  class value = 3
+  class rgb = 0,238,0
+end node
+
+begin node
+  name = "5"
+  type = Result
+  location = 9,115
+  parent name = "b19 le 1366"
+  parent decision = No
+  class value = 5
+  class rgb = 255,255,0
+end node
+
+begin node
+  name = "b23 le 280"
+  type = Decision
+  location = 8,57
+  parent name = "b8 le 962"
+  parent decision = No
+  expression = "b23 le 280"
+end node
+
+begin node
+  name = "3"
+  type = Result
+  location = 9,114
+  parent name = "b23 le 280"
+  parent decision = Yes
+  class value = 3
+  class rgb = 0,238,0
+end node
+
+begin node
+  name = "b22 le 535"
+  type = Decision
+  location = 9,113
+  parent name = "b23 le 280"
+  parent decision = No
+  expression = "b22 le 535"
+end node
+
+begin node
+  name = "5"
+  type = Result
+  location = 10,226
+  parent name = "b22 le 535"
+  parent decision = Yes
+  class value = 5
+  class rgb = 255,255,0
+end node
+
+begin node
+  name = "3"
+  type = Result
+  location = 10,225
+  parent name = "b22 le 535"
+  parent decision = No
+  class value = 3
+  class rgb = 0,238,0
+end node
+
+begin node
+  name = "b6 le -185"
+  type = Decision
+  location = 5,7
+  parent name = "b14 le 1698"
+  parent decision = No
+  expression = "b6 le -185"
+end node
+
+begin node
+  name = "b23 le 338"
+  type = Decision
+  location = 6,14
+  parent name = "b6 le -185"
+  parent decision = Yes
+  expression = "b23 le 338"
+end node
+
+begin node
+  name = "3"
+  type = Result
+  location = 7,28
+  parent name = "b23 le 338"
+  parent decision = Yes
+  class value = 3
+  class rgb = 0,238,0
+end node
+
+begin node
+  name = "8"
+  type = Result
+  location = 7,27
+  parent name = "b23 le 338"
+  parent decision = No
+  class value = 8
+  class rgb = 176,48,96
+end node
+
+begin node
+  name = "3"
+  type = Result
+  location = 6,13
+  parent name = "b6 le -185"
+  parent decision = No
+  class value = 3
+  class rgb = 0,238,0
+end node
+
+begin node
+  name = "b4 le 385"
+  type = Decision
+  location = 4,3
+  parent name = "b18 le 2940"
+  parent decision = No
+  expression = "b4 le 385"
+end node
+
+begin node
+  name = "b15 le 7642"
+  type = Decision
+  location = 5,6
+  parent name = "b4 le 385"
+  parent decision = Yes
+  expression = "b15 le 7642"
+end node
+
+begin node
+  name = "b3 le 197"
+  type = Decision
+  location = 6,12
+  parent name = "b15 le 7642"
+  parent decision = Yes
+  expression = "b3 le 197"
+end node
+
+begin node
+  name = "3"
+  type = Result
+  location = 7,24
+  parent name = "b3 le 197"
+  parent decision = Yes
+  class value = 3
+  class rgb = 0,238,0
+end node
+
+begin node
+  name = "b12 le 4457"
+  type = Decision
+  location = 7,23
+  parent name = "b3 le 197"
+  parent decision = No
+  expression = "b12 le 4457"
+end node
+
+begin node
+  name = "3"
+  type = Result
+  location = 8,46
+  parent name = "b12 le 4457"
+  parent decision = Yes
+  class value = 3
+  class rgb = 0,238,0
+end node
+
+begin node
+  name = "8"
+  type = Result
+  location = 8,45
+  parent name = "b12 le 4457"
+  parent decision = No
+  class value = 8
+  class rgb = 176,48,96
+end node
+
+begin node
+  name = "2"
+  type = Result
+  location = 6,11
+  parent name = "b15 le 7642"
+  parent decision = No
+  class value = 2
+  class rgb = 0,139,0
+end node
+
+begin node
+  name = "b3 le 1834"
+  type = Decision
+  location = 5,5
+  parent name = "b4 le 385"
+  parent decision = No
+  expression = "b3 le 1834"
+end node
+
+begin node
+  name = "b20 le 1584"
+  type = Decision
+  location = 6,10
+  parent name = "b3 le 1834"
+  parent decision = Yes
+  expression = "b20 le 1584"
+end node
+
+begin node
+  name = "3"
+  type = Result
+  location = 7,20
+  parent name = "b20 le 1584"
+  parent decision = Yes
+  class value = 3
+  class rgb = 0,238,0
+end node
+
+begin node
+  name = "b13 le 3206"
+  type = Decision
+  location = 7,19
+  parent name = "b20 le 1584"
+  parent decision = No
+  expression = "b13 le 3206"
+end node
+
+begin node
+  name = "b23 le 1248"
+  type = Decision
+  location = 8,38
+  parent name = "b13 le 3206"
+  parent decision = Yes
+  expression = "b23 le 1248"
+end node
+
+begin node
+  name = "4"
+  type = Result
+  location = 9,76
+  parent name = "b23 le 1248"
+  parent decision = Yes
+  class value = 4
+  class rgb = 255,0,0
+end node
+
+begin node
+  name = "3"
+  type = Result
+  location = 9,75
+  parent name = "b23 le 1248"
+  parent decision = No
+  class value = 3
+  class rgb = 0,238,0
+end node
+
+begin node
+  name = "b3 le 421"
+  type = Decision
+  location = 8,37
+  parent name = "b13 le 3206"
+  parent decision = No
+  expression = "b3 le 421"
+end node
+
+begin node
+  name = "b19 le 2667"
+  type = Decision
+  location = 9,74
+  parent name = "b3 le 421"
+  parent decision = Yes
+  expression = "b19 le 2667"
+end node
+
+begin node
+  name = "1"
+  type = Result
+  location = 10,148
+  parent name = "b19 le 2667"
+  parent decision = Yes
+  class value = 1
+  class rgb = 0,205,0
+end node
+
+begin node
+  name = "3"
+  type = Result
+  location = 10,147
+  parent name = "b19 le 2667"
+  parent decision = No
+  class value = 3
+  class rgb = 0,238,0
+end node
+
+begin node
+  name = "b16 le 5108"
+  type = Decision
+  location = 9,73
+  parent name = "b3 le 421"
+  parent decision = No
+  expression = "b16 le 5108"
+end node
+
+begin node
+  name = "b17 le 4427"
+  type = Decision
+  location = 10,146
+  parent name = "b16 le 5108"
+  parent decision = Yes
+  expression = "b17 le 4427"
+end node
+
+begin node
+  name = "1"
+  type = Result
+  location = 11,292
+  parent name = "b17 le 4427"
+  parent decision = Yes
+  class value = 1
+  class rgb = 0,205,0
+end node
+
+begin node
+  name = "3"
+  type = Result
+  location = 11,291
+  parent name = "b17 le 4427"
+  parent decision = No
+  class value = 3
+  class rgb = 0,238,0
+end node
+
+begin node
+  name = "1"
+  type = Result
+  location = 10,145
+  parent name = "b16 le 5108"
+  parent decision = No
+  class value = 1
+  class rgb = 0,205,0
+end node
+
+begin node
+  name = "3"
+  type = Result
+  location = 6,9
+  parent name = "b3 le 1834"
+  parent decision = No
+  class value = 3
+  class rgb = 0,238,0
+end node
+
+begin node
+  name = "b13 le 6820"
+  type = Decision
+  location = 3,1
+  parent name = "b9 le 4962"
+  parent decision = No
+  expression = "b13 le 6820"
+end node
+
+begin node
+  name = "3"
+  type = Result
+  location = 4,2
+  parent name = "b13 le 6820"
+  parent decision = Yes
+  class value = 3
+  class rgb = 0,238,0
+end node
+
+begin node
+  name = "b15 le 5312"
+  type = Decision
+  location = 4,1
+  parent name = "b13 le 6820"
+  parent decision = No
+  expression = "b15 le 5312"
+end node
+
+begin node
+  name = "1"
+  type = Result
+  location = 5,2
+  parent name = "b15 le 5312"
+  parent decision = Yes
+  class value = 1
+  class rgb = 0,205,0
+end node
+
+begin node
+  name = "b2 le -174"
+  type = Decision
+  location = 5,1
+  parent name = "b15 le 5312"
+  parent decision = No
+  expression = "b2 le -174"
+end node
+
+begin node
+  name = "b21 le 1570"
+  type = Decision
+  location = 6,2
+  parent name = "b2 le -174"
+  parent decision = Yes
+  expression = "b21 le 1570"
+end node
+
+begin node
+  name = "3"
+  type = Result
+  location = 7,4
+  parent name = "b21 le 1570"
+  parent decision = Yes
+  class value = 3
+  class rgb = 0,238,0
+end node
+
+begin node
+  name = "b4 le -23"
+  type = Decision
+  location = 7,3
+  parent name = "b21 le 1570"
+  parent decision = No
+  expression = "b4 le -23"
+end node
+
+begin node
+  name = "b23 le 318"
+  type = Decision
+  location = 8,6
+  parent name = "b4 le -23"
+  parent decision = Yes
+  expression = "b23 le 318"
+end node
+
+begin node
+  name = "3"
+  type = Result
+  location = 9,12
+  parent name = "b23 le 318"
+  parent decision = Yes
+  class value = 3
+  class rgb = 0,238,0
+end node
+
+begin node
+  name = "2"
+  type = Result
+  location = 9,11
+  parent name = "b23 le 318"
+  parent decision = No
+  class value = 2
+  class rgb = 0,139,0
+end node
+
+begin node
+  name = "1"
+  type = Result
+  location = 8,5
+  parent name = "b4 le -23"
+  parent decision = No
+  class value = 1
+  class rgb = 0,205,0
+end node
+
+begin node
+  name = "2"
+  type = Result
+  location = 6,1
+  parent name = "b2 le -174"
+  parent decision = No
+  class value = 2
+  class rgb = 0,139,0
+end node
