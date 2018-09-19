@@ -1,6 +1,7 @@
 ﻿*.suo
 *.ipch
 *.sln
+*.db
 #过滤文件夹Debug,Release,obj
 Debug/
 Release/
