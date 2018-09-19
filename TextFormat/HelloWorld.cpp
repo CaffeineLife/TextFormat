@@ -10,13 +10,16 @@ int main()
 	fo->printInput();
 	*/
 
-	string line0 = " 11 22 33 44";
-	string line1 = " B15 <= 1,283 [ ģʽ: 5 ]";
-	string line2 = "B20 <= -1,136 [ ģʽ: 6 ] => 6.0";
+	string line1 = " B15 <= 1,283 [  ģʽ: 5 ]";
+	string line2 = " B20 <= -1,136 [ ģʽ: 6 ] => 6.0 ";
 	
-	BinNode* node = new BinNode(line1);
-	node->traverse_info();
+	BinNode* node1 = new BinNode(line1);
+	node1->traverse_info();
 
+	cout << "-----------------" << endl;
+
+	BinNode* node2 = new BinNode(line2);
+	node2->traverse_info();
 
 
 	system("PAUSE");
