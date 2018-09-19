@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -19,19 +19,19 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\John%27s Desktop\source\repos\TextFormat\TextFormat\BinNode.h" />
-    <ClInclude Include="..\..\..\..\..\John%27s Desktop\source\repos\TextFormat\TextFormat\Classes.h" />
-    <ClInclude Include="..\..\..\..\..\John%27s Desktop\source\repos\TextFormat\TextFormat\Common.h" />
-    <ClInclude Include="..\..\..\..\..\John%27s Desktop\source\repos\TextFormat\TextFormat\FileOperation.h" />
+    <ClInclude Include="BinNode.h" />
+    <ClInclude Include="Classes.h" />
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="FileOperation.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\John%27s Desktop\source\repos\TextFormat\TextFormat\BinNode.cpp" />
-    <ClCompile Include="..\..\..\..\..\John%27s Desktop\source\repos\TextFormat\TextFormat\FileOperation.cpp" />
-    <ClCompile Include="..\..\..\..\..\John%27s Desktop\source\repos\TextFormat\TextFormat\HelloWorld.cpp" />
+    <ClCompile Include="BinNode.cpp" />
+    <ClCompile Include="FileOperation.cpp" />
+    <ClCompile Include="HelloWorld.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="..\..\..\..\..\John%27s Desktop\source\repos\TextFormat\TextFormat\input.txt" />
-    <Text Include="..\..\..\..\..\John%27s Desktop\source\repos\TextFormat\TextFormat\output.txt" />
+    <Text Include="input.txt" />
+    <Text Include="output.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
