@@ -1,5 +1,5 @@
 #pragma once
-
+#include "Classes.h"
 #include "Common.h"
 
 class FileOperation
@@ -26,4 +26,3 @@ protected:
 	vector<string>* inputLines;
 	vector<string>* outputLines;
 };
-

@@ -27,6 +27,12 @@
     <ClInclude Include="..\FileOperation.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\StringHandling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StackTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\BinNode.cpp">
@@ -36,6 +42,12 @@
       <Filter>Resource Files</Filter>
     </ClCompile>
     <ClCompile Include="..\HelloWorld.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StringHandling.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StackTree.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
   </ItemGroup>

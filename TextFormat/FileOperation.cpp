@@ -39,10 +39,10 @@ FileOperation::~FileOperation()
 	this->fin->close();
 	this->fout->close();
 
-	free(this->inputLines);
-	free(this->outputLines);
-	free(this->fin);
-	free(this->fout);
+	delete this->inputLines;
+	delete this->outputLines;
+	delete this->fin;
+	delete this->fout;
 }
 
 string FileOperation::readLine()

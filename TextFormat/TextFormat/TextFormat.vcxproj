@@ -115,11 +115,15 @@
     <ClInclude Include="..\Classes.h" />
     <ClInclude Include="..\Common.h" />
     <ClInclude Include="..\FileOperation.h" />
+    <ClInclude Include="..\StackTree.h" />
+    <ClInclude Include="..\StringHandling.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\BinNode.cpp" />
     <ClCompile Include="..\FileOperation.cpp" />
     <ClCompile Include="..\HelloWorld.cpp" />
+    <ClCompile Include="..\StackTree.cpp" />
+    <ClCompile Include="..\StringHandling.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\input.txt" />
